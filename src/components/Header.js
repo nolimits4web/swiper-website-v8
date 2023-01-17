@@ -1,5 +1,4 @@
 import menuList from '../shared/menu-list';
-import GithubStats from './GithubStats';
 import Link from 'next/link';
 import { ReactComponent as Logo } from '@/img/logo.svg';
 import { ReactComponent as PatreonLogo } from '@/img/patreon-logo.svg';
@@ -97,7 +96,6 @@ export default function Header() {
             </a>
           </nav>
         </div>
-        <GithubStats white responsive className="md:ml-auto" />
         <div className="relative ml-4 flex">
           <ThemeToggle />
         </div>
