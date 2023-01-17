@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.local.old
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+public/types/**/*
+!public/types/.gitkeep
+public/.DS_Store
+
+src/components/api/*.js
+src/types.json
+src/demos.json
+src/uiinitiative-demos.json
+
+public/demos/**/*.json
+public/demos/**/*.html
+!public/demos/images
+
+tsconfig.json
